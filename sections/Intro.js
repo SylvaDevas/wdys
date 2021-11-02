@@ -230,6 +230,7 @@ display:none
           .menu-pc-inner {
             display: table-cell;
             vertical-align: middle;
+            padding: 134px 0;
           }
           .intro-logo {
             position: absolute;
