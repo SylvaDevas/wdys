@@ -43,7 +43,7 @@ class Intro extends React.Component {
       const logo = document.getElementById('intro_logo')
       logo.className += ' mounted'
     }, 100);
-    
+
     setTimeout(() => {
       const elems = document.getElementsByClassName('show-later')
 
@@ -62,67 +62,67 @@ class Intro extends React.Component {
     return (
       <>
         <section>
-  
+
           <div className="wrapper" style={{minHeight: this.state.window_height}}>
-      
+
           <div className="button-starter2">
                 <Button type="starter2" target="_blank" href="https://www.kickstarter.com/projects/maeone/ona"></Button>
               </div>
             <div className="max-width-wrapper">
-         
+
               <div id="intro"></div>
 
               <div className="sns-links show-later">
                 <SNSLinks />
               </div>
-         
+
               <div className="menu-pc show-later">
-         
+
                 <div className="menu-pc-inner">
-           
+
                   <MenuPC config={this.props.config} />
 
-             
+
                 </div>
               </div>
               <div id="intro_logo" className="intro-logo">
-                
+
                 <div className="intro-logo-inner">
                   {/* <img src="/img/logo_wdys.png" alt="What do you see?" /> */}
                   <img src={Base64Logo} alt="Ona Logo" />
 
-                  <p className="intro-text">A MYSTICAL ART EXPERIENCE</p><br/>
+                  <p className="intro-text">MYSTICAL ART EXPERIENCE</p><br/>
                   <p className="intro-text2">universal interactive virtual journey<br/>to discover the quest of our humanity
                   <br/>
 
-       
+
 </p>
 
 
                 </div>
- {/* 
+ {/*
                 <div className="intro-video-bg" style={{
                   backgroundImage: "url('" + Base64VideoStillPC + "')"
                 } }alt="Ona Video"></div>*/}
               </div>
             </div>
-        
+
             <div id="button_enter" className="intro-enter-button show-later">
-          
+
               <div className="button-enter">
                 <Button type="enter" href="#description">Discover ONA</Button>
                 <span className="line"></span>
               </div>
 
-     
-      
+
+
               <AnchorLink href="#description">
                 <img className="arrow" src="/img/ona_arrow.png" alt="Ona Arrow" />
               </AnchorLink>
             </div>
           </div>
         </section>
-    
+
         <style jsx>{`
 
 
