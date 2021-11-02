@@ -5,8 +5,8 @@ class AboutPicture extends React.Component {
   constructor(props) {
     super(props)
     // this.state = {
-    //   pictureChange: false
-    // }
+      //   pictureChange: false
+      // }
   }
 
   // togglePicture = () => {
@@ -29,14 +29,14 @@ class AboutPicture extends React.Component {
             //  data-hover-flg={this.state.pictureChange ? "hover" : "normal"}>
         >
           <div className="picture picture-cat">
-            
+
             <img src="/img/picture_cat.png" />
           </div>
           <div className="picture picture-sylva">
             <img src="/img/picture_sylva4.png" />
           </div>
         </div>
-        
+
         <style jsx>{`
           .wrapper {
             position: relative;
